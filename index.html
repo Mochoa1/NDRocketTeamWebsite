@@ -1,0 +1,80 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/ng-prettyjson/dist/ng-prettyjson.min.css">
+        <link href="src/view/docs/docs.css" rel="stylesheet">
+        <link href="src/view/photos/photos.css" rel="stylesheet">
+        <link href="src/view/photos/4-col-portfolio.css" rel="stylesheet">
+        <link href="src/view/team/agency.css" rel="stylesheet">
+
+
+        <link href="src/css/general.css" rel="stylesheet">
+        <link href="src/css/bootstrap.css" rel="stylesheet">
+        <link href="src/view/team/team2.css" rel="stylesheet">
+        <link href="src/view/contact/contact.css" rel="stylesheet">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+
+    </head>
+    <div id="bg">
+      <img src="img/header-bg.jpg" alt="">
+    </div>
+
+    <body ng-app="crBootstrapNavbarApp">
+
+        <div cr-bootstrap-navbar css-inverse="true" ></div> <!-- The navbar directive -->
+
+        <div class="container">
+
+            <div class="row marketing">
+
+              <div ui-view> <!-- First (top) view level -->
+
+                <div ui-view></div> <!-- Second level nesting -->
+
+              </div>
+
+            </div>
+        </div>
+        <!-- <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Footer</p>
+                </div>
+            </div>
+        </footer> -->
+
+        <!-- Dependencies -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/angular-underscore/angular-underscore.js"></script>
+        <script src="bower_components/ng-prettyjson/dist/ng-prettyjson.min.js"></script>
+        <script src="src/js/cr-bootstrap-navbar.js"></script> <!-- The directive (installed through bower in production) -->
+        <script src="src/js/bootstrap.js"></script>
+
+         <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> -->
+
+
+         <script src="src/js/jquery.jswipe-0.1.2.js"></script>
+         <script src="src/view/photos/photos.js"></script>
+         <script src="src/view/contact/contact.js"></script>
+
+
+        <!-- The app -->
+        <script src="src/scripts/app.js"></script>
+        <!-- <y js -->
+        <!-- <script src="src/view/team/team.js"></script> -->
+
+
+    </body>
+
+</html>

@@ -1,0 +1,52 @@
+
+.doclink {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: block;
+    text-transform: capitalize;
+
+}
+
+.doclink:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*
+.doclink {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: lowercase;
+    display: block;
+}
+
+.doclink:hover {
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}*/
+.doclinkcoming {
+  font-size: 30px;
+  font-weight: bold;
+  color: #008DFF;
+  /*color:#DAC1C1;*/
+  opacity: 50%;
+  display: block;
+  margin-bottom: 1em;
+
+}
+.date{
+  font-style: italic;
+  font-size: 16px;
+  color: #008DFF;
+  /*color: #DAC1C1;*/
+  opacity: 50%;
+  text-align: center;
+  text-transform: lowercase;
+  display: inline;
+}

@@ -1,0 +1,40 @@
+<div class="container">
+   <div class="row">
+     <span class="doclinkcoming">Send us a Message </span>
+  </div
+  <div class="row">
+<form class="sl-form">
+        <input id="form-input-name" type="text" name="name" placeholder="name"><br>
+        <input id="form-input-email" type="email" name="_replyto" placeholder="email"><br>
+        <textarea id="form-input-content" name="content" rows="2" placeholder="message"></textarea><br>
+        <button id="form-submit-button" onclick="send()">submit</button>
+        <span id="form-submit-thank-you" style="display: none;">thank you</span>
+</form>
+</div>
+</div>
+<script>
+function send() {
+  // $.ajax({
+  //   url: "//formspree.io/amcmaho4@nd.edu",
+  //   method: "POST",
+  //   data: { name: "anna", email: "amcmaho4@nd.edu", content: "HEY" },
+  //   dataType: "json"
+  // });
+  var name = $('#form-input-name').val();
+  var email = $('#form-input-email').val();
+  var message = $('#form-input-content').val();
+
+  $('#form-input-name').val('');
+  $('#form-input-email').val('');
+  $('#form-input-content').val('');
+
+  toggleThankYou();
+
+  $.ajax({
+    url: "//formspree.io/amcmaho4@nd.edu",
+    method: "POST",
+    data: { name: name, email: email, content: message },
+    dataType: "json"
+  });
+}
+</script>

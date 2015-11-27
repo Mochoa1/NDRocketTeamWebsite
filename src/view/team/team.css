@@ -1,0 +1,114 @@
+.peopleItems {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+    flex-direction: row;
+    padding: 1px;
+
+    /*width: 320px;
+    height: 450px;*/
+    border: 1px solid rgba(0,0,0,.5);/*rgba(113,107,198,.6);*/
+    background: rgba(0,0,0,.5);
+    /*rgba(113,107,198,0.4);*/
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+hr{
+  color: #008DFF;
+}
+.blue {
+  color: #008DFF;
+}
+
+.name{
+  ont-size: 18px;
+  font-weight: bold;
+  color: white;
+  /*text-align: center;*/
+}
+.paragraph{
+    font-size: 12;
+    font-weight: normal;
+    color: #ffffff;
+    width: 250px;
+}
+.title{
+    font-size: 8px;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    display: block;
+    /*text-align: center;*/
+}
+.peopleItems #name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #B8860B;
+    text-align: center;
+
+}
+.largeDiv{
+width:200px;
+
+}
+.peopleItems #title{
+    font-size: 8px;
+    color: #B8860B;
+    font-style: italic;
+    font-weight: normal;
+    display: block;
+    text-align: center;
+}
+
+#team, #calendar, #documents, #Pictures{
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+
+.peopleItems #paragraph{
+    font-size: 12;
+    font-weight: normal;
+    color: #ffffff;
+    width: 250px;
+}
+.peopleItems img{
+    background-color: rgba(0,0,0,0);
+    border: 25px solid rgba(255,255,255,.04);/*rgba(113,107,198,.4);*/
+    /*height: 170px;*/
+    width: 200px;
+
+}
+
+.flex-container {
+	padding: 50;
+	margin: 10;
+	list-style: none;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+	flex-flow: nowrap;
+  overflow: scroll;
+}
+.flex-item {
+    flex-direction: row;
+    background:  rgba(0,0,0,.08);
+    padding: 10px;
+    width: 250px;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}

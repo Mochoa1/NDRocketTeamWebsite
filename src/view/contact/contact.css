@@ -1,0 +1,59 @@
+
+.sl-form {
+	position: relative;
+}
+
+.sl-form label {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.sl-form input {
+	background: none !important;
+	/*max-width: 700px;*/
+  width: 100%;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom-color: #008DFF;
+	border-bottom-width: 1px;
+	margin-bottom: 2em;
+  color: white;
+  max-width: 700px;
+}
+
+.sl-form textarea {
+	background: none !important;
+	width: 100%;
+	max-width: 700px;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom-color: #008DFF;
+	border-bottom-width: 1px;
+	margin-bottom: 2em;
+  color: white;
+}
+
+.sl-form button {
+	background: none !important;
+	border: none;
+	padding: 0!important;
+	color: #008DFF;
+	cursor: pointer;
+	margin-bottom: 2em;
+}
+section{
+padding: 50px 0;
+}
+.sl-form button:hover {
+	color: white;
+	text-decoration: underline;
+}
+input{
+background-color: white;
+}
+#form-submit-thank-you {
+	color: #909090;
+	margin-left: 1em;
+}
